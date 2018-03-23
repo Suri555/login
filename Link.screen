@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="2" x="56" y="8" width="489" text="Use links to add interactivity" measuredWidth="489" measuredHeight="30" textAlignment="Center" foreground="#00f">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="1" x="56" y="56" width="489" text="Start,Mockup,Extend,Link,Share" measuredWidth="489" measuredHeight="39" selection="0">
+    <font size="18px" bold="true"/>
+    <items link="Start.screen" x="0" y="0" width="87" height="39" text="Start"/>
+    <items link="Mockup.screen" x="87" y="0" width="119" height="39" text="Mockup"/>
+    <items link="Extend.screen" x="206" y="0" width="109" height="39" text="Extend"/>
+    <items x="315" y="0" width="75" height="39" text="Link"/>
+    <items link="Share.screen" x="390" y="0" width="99" height="39" text="Share"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="9" x="56" y="132" width="489" text="Use storyboards to organize user stories&#xA;and screen flows" measuredWidth="489" measuredHeight="44" textAlignment="Center" foreground="#00f">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Placeholder" id="5" x="24" y="192" width="129" height="129" measuredWidth="129" measuredHeight="129"/>
+  <widgets xsi:type="model:Placeholder" id="6" x="168" y="192" width="129" height="129" measuredWidth="129" measuredHeight="129"/>
+  <widgets xsi:type="model:Placeholder" id="7" x="312" y="192" width="129" height="129" measuredWidth="129" measuredHeight="129"/>
+  <widgets xsi:type="model:Placeholder" id="8" x="456" y="192" width="129" height="129" measuredWidth="129" measuredHeight="129"/>
+  <widgets xsi:type="model:Button" id="3" x="184" y="352" width="234" text="Next screen" measuredWidth="234" measuredHeight="23" background="#6aa84f" link="Share.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+  <note>Use linking to create interactive prototypes.
+
+Present your prototypes in full-screen mode and click-through to show how the application or website is supposed work.
+
+Export your prototype to clickable, high-quality PDF and let your clients test it themselves.
+
+Storyboard your use-cases and show how the UI responds to user actions and changes in time. Use storyboards to make slideshow presentations and export multi-page, interactive PDFs or HTML.</note>
+</model:Screen>

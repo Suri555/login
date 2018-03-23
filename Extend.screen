@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Label" id="4" x="96" y="8" width="441" text="Get extra stencils from Mockups Gallery" measuredWidth="441" measuredHeight="30" textAlignment="Center" foreground="#00f">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Menu" id="6" x="241" y="49" text="File, Edit, View, Object, Format, Run, Window, Help" measuredWidth="333" measuredHeight="23" selection="7">
+    <items x="5" y="0" width="30" height="23" text="File"/>
+    <items x="35" y="0" width="33" height="23" text="Edit"/>
+    <items x="68" y="0" width="38" height="23" text="View"/>
+    <items x="106" y="0" width="48" height="23" text="Object"/>
+    <items x="154" y="0" width="50" height="23" text="Format"/>
+    <items x="204" y="0" width="33" height="23" text="Run"/>
+    <items x="237" y="0" width="55" height="23" text="Window"/>
+    <items x="292" y="0" width="36" height="23" text="Help"/>
+  </widgets>
+  <widgets xsi:type="model:Popup" id="5" x="342" y="72" text="Welcome&#xA;--&#xA;{help} Help Contents&#xA;{find} Search&#xA;--&#xA;Report a Bug...&#xA;License Key...&#xA;--&#xA;Add Assets from Mockups Gallery...&#xA;Check for Updates&#xA;Install New Software...&#xA;---&#xA;About" measuredWidth="221" measuredHeight="246" selection="8">
+    <items x="0" y="2" width="221" height="22" text="Welcome"/>
+    <items x="0" y="24" width="221" height="11" text="--"/>
+    <items x="0" y="35" width="221" height="22" text="{help} Help Contents"/>
+    <items x="0" y="57" width="221" height="22" text="{find} Search"/>
+    <items x="0" y="79" width="221" height="11" text="--"/>
+    <items x="0" y="90" width="221" height="22" text="Report a Bug..."/>
+    <items x="0" y="112" width="221" height="22" text="License Key..."/>
+    <items x="0" y="134" width="221" height="11" text="--"/>
+    <items x="0" y="145" width="221" height="22" text="Add Assets from Mockups Gallery..."/>
+    <items x="0" y="167" width="221" height="22" text="Check for Updates"/>
+    <items x="0" y="189" width="221" height="22" text="Install New Software..."/>
+    <items x="0" y="211" width="221" height="11" text="---"/>
+    <items x="0" y="222" width="221" height="22" text="About"/>
+  </widgets>
+  <widgets xsi:type="model:Tree" id="12" x="51" y="120" text="wireframing-tutorial&#xA;-assets&#xA;--icons&#xA;---7-location-map.svg&#xA;---9-av-shuffle.svg&#xA;--logo.png&#xA;--logo.screen&#xA;--Star.svg&#xA;" measuredWidth="192" measuredHeight="170" border="false" selection="1">
+    <items x="0" y="5" width="192" height="20" text="wireframing-tutorial"/>
+    <items x="0" y="25" width="192" height="20" text="-assets"/>
+    <items x="0" y="45" width="192" height="20" text="--icons"/>
+    <items x="0" y="65" width="192" height="20" text="---7-location-map.svg"/>
+    <items x="0" y="85" width="192" height="20" text="---9-av-shuffle.svg"/>
+    <items x="0" y="105" width="192" height="20" text="--logo.png"/>
+    <items x="0" y="125" width="192" height="20" text="--logo.screen"/>
+    <items x="0" y="145" width="192" height="20" text="--Star.svg"/>
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="7" x="96" y="342" width="441" text="Add your own icons to the icon library" measuredWidth="441" measuredHeight="30" textAlignment="Center" foreground="#00f">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Icon" id="2" x="244" y="384" measuredWidth="48" measuredHeight="48" icon="assets/7-location-map (xlarge)"/>
+  <widgets xsi:type="model:Icon" id="3" x="340" y="384" measuredWidth="48" measuredHeight="48" icon="assets/9-av-shuffle (xlarge)"/>
+  <widgets xsi:type="model:Label" id="11" x="84" y="444" width="465" text="Use SVG images for new shapes and icons" measuredWidth="465" measuredHeight="30" textAlignment="Center" foreground="#00f">
+    <font size="18px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:SVGImage" id="10" x="266" y="480" measuredWidth="100" measuredHeight="100" src="assets/Star.svg"/>
+  <widgets xsi:type="model:Button" id="1" x="192" y="592" width="234" text="Next screen" measuredWidth="234" measuredHeight="23" background="#6aa84f" link="Link.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+  <note>*WireframeSketcher* can be easily extended with custom assets.
+
+Make use of the user-contributed Mockups Gallery to jump-start your mockups and to get inspiration from. Find Android, iPhone, iPad, Windows Phone stencils, extra icons and other useful resources on our website or directly under *Help > Add Assets from Mockups Gallery...*.
+
+Do you need a common template, a master for all your screens? Want to reuse that standard dialog in multiple places? Use components to do just that. Changes to a component are instantly visible in all screens that use it. You can put them in the palette and create your own stencils. Any screen can be a used as a component. This means that creating screen variations is easy without any duplication. Easy inheritance mechanism lets you alter component's instance without breaking the link to its origin.
+
+Missing a widget? Want to include a logo? WireframeSketcher lets you use your own images. Color images can be conveniently drawn in black and white to blend in with the overall look of the wireframe. And the best thing - you can use SVG vector graphic images which will even automatically get the hand-drawn look.
+</note>
+</model:Screen>

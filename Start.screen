@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Arrow" id="8" x="344" y="8" width="32" height="69" measuredWidth="32" measuredHeight="69"/>
+  <widgets xsi:type="model:Text" id="9" x="373" y="78" text="Menu and&#xA;Toolbar" measuredWidth="72" measuredHeight="36" annotation="true">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="1" x="48" y="112" width="129" height="36" measuredWidth="129" measuredHeight="36"/>
+  <widgets xsi:type="model:Text" id="2" x="185" y="135" text="Your projects,&#xA;screens and&#xA;storyboards" measuredWidth="99" measuredHeight="54" annotation="true">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Master" id="7" x="320" y="138" measuredWidth="235" measuredHeight="45">
+    <screen xsi:type="model:Screen" href="assets/logo.screen#/"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="16" x="307" y="208" width="263" text="Welcome" measuredWidth="263" measuredHeight="56" textAlignment="Center" foreground="#00f">
+    <font size="43px" bold="true"/>
+    <note>*Notes* represent an alternative way to annotate your screens. Notes can be added to any object and can contain additional description that should be attached to that object.
+
+Objects that have an attached note are displayed with a small overlay icon in the top right corner to indicate that.
+
+Use *Notes* to provide things like descriptions, explanations, more extensive documentation, and specifications to designers and developers.
+</note>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="3" x="24" y="287" width="129" height="10" measuredWidth="129" measuredHeight="10"/>
+  <widgets xsi:type="model:Text" id="4" x="160" y="278" text="Properties,&#xA;Links and Notes" measuredWidth="114" measuredHeight="36" annotation="true">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="10" x="680" y="294" width="65" height="22" measuredWidth="65" measuredHeight="22" left="false" right="true"/>
+  <widgets xsi:type="model:Text" id="11" x="576" y="263" text="Palette,&#xA;widgets and&#xA;your assets" measuredWidth="87" measuredHeight="54" annotation="true">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Text" id="15" x="360" y="287" width="159" height="80" text="Here's what you have on your screen" measuredWidth="159" measuredHeight="80" textAlignment="Center" foreground="#00f">
+    <font size="17px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="5" x="40" y="421" width="121" height="60" measuredWidth="121" measuredHeight="60" direction="bottom"/>
+  <widgets xsi:type="model:Text" id="6" x="168" y="405" text="Outline" measuredWidth="54" measuredHeight="18" annotation="true">
+    <font size="16px"/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="12" x="336" y="384" width="234" text="Next screen" measuredWidth="234" measuredHeight="23" background="#6aa84f" link="Mockup.screen" style="pointright">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="14" x="465" y="413" width="89" height="49" measuredWidth="89" measuredHeight="49" left="false" right="true" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="13" x="298" y="442" width="162" height="59" text="This round yellow icon indicates a link.&#xA;Click it to continue." measuredWidth="162" measuredHeight="59">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Arrow" id="17" x="576" y="152" width="63" height="47" measuredWidth="63" measuredHeight="47" direction="bottom"/>
+  <widgets xsi:type="model:Note" id="18" x="577" y="99" width="168" height="46" text="This square yellow icon indicates an attached note." measuredWidth="168" measuredHeight="46">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+  <note>This the start screen that shows all the main parts of the *WireframeSketcher*'s user interface.
+
+You can find out more detailed information about each part by consulting the integrated help that can be opened using *F1*.
+
+This description in particular is a screen note that you can edit using the *Notes* view.</note>
+</model:Screen>
